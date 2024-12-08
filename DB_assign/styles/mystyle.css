@@ -1,0 +1,221 @@
+			body {
+			    font-family: 'Quicksand', sans-serif !important;
+			}
+
+			#home {
+			    display: flex;
+			    height: 94vh;
+			    margin: auto;
+			    background-color: #fdfdfd;
+			    align-items: center;
+			    position: relative;
+			}
+
+			.bg-color {
+			    background-color: #fdfdfd;
+			}
+
+			.connect-text {
+			    font-size: 14px;
+			    color: #565656;
+			}
+
+			a {
+			    text-decoration: none !important;
+			}
+
+			.w-100 {
+			    width: 100%;
+			}
+
+			.padding-top-20 {
+			    padding-top: 20px;
+			}
+
+			.margin-bottom-20 {
+			    margin-bottom: 20px;
+			}
+
+			.col-align-left {
+			    text-align: left;
+			}
+
+			.col-align-right {
+			    text-align: right;
+			    text-align: -webkit-right;
+			    text-align: -moz-right;
+			}
+
+			.login-form {
+			    background: #ffffff;
+			    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.15);
+			    border-radius: 16px;
+			    text-align: center;
+			    width: 66.67%;
+			    padding: 40px 30px;
+			}
+
+			.login-form--input {
+			    background: #ffffff;
+			    border: 1px solid #dadada;
+			    border-radius: 16px;
+			    width: 100%;
+			    padding: 12px;
+			    font-size: 16px;
+			    line-height: 20px;
+			    color: #959595;
+			}
+
+			.btn-login {
+			    display: inline-block;
+			    cursor: pointer;
+			    text-align: center;
+			    vertical-align: middle;
+			    width: 100%;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    background-color: #1171e8;
+			    font-size: 18px;
+			    color: #ffffff !important;
+			    border-radius: 16px;
+			    border-color: #1171e8;
+			    text-decoration: none !important;
+			}
+
+			.btn-link {
+			    cursor: pointer;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    background: transparent;
+			    color: #1171e8 !important;
+			    font-weight: bolder;
+			}
+
+			.btn-register {
+			    display: inline-block;
+			    cursor: pointer;
+			    text-align: center;
+			    vertical-align: middle;
+			    width: 100%;
+			    padding-top: 6px;
+			    padding-bottom: 6px;
+			    background-color: #f44025;
+			    font-size: 18px;
+			    color: #ffffff !important;
+			    border-radius: 16px;
+			    border-color: #f44025;
+			    text-decoration: none !important;
+			}
+
+			.forgot-pass-text {
+			    font-size: 16px;
+			    line-height: 19px;
+			    color: #4f4f4f !important;
+			    margin-top: 15px;
+			    margin-bottom: 13px;
+			    cursor: pointer;
+			    text-emphasis: none !important;
+			}
+
+			.line {
+			    border-top: 1px solid #999999;
+			}
+
+			.register-text {
+			    font-size: 16px;
+			    line-height: 19px;
+			    color: #4f4f4f !important;
+			    cursor: pointer;
+			    text-decoration: none !important;
+			}
+
+			#footer {
+			    background: #f2f2f2;
+			    bottom: 0;
+			    width: 100%;
+			}
+
+			.line-footer {
+			    border-top: 1px solid #cccccc;
+			    width: 100%;
+			}
+
+			input:focus {
+			    outline: none !important;
+			}
+
+			.language-text {
+			    font-size: 14px;
+			    color: #565656 !important;
+			    cursor: pointer;
+			}
+
+			.justify-icon {
+			    justify-content: end;
+			}
+
+			@media only screen and (max-width: 767px) {
+			    .padding-mobile {
+			        padding-top: 32px;
+			        padding-bottom: 32px;
+			    }
+
+			    .col-align-left,
+			    .col-align-right {
+			        text-align: center;
+			        text-align: -moz-center;
+			        text-align: -webkit-center;
+			    }
+
+			    .padding-top-18 {
+			        padding-top: 18px;
+			    }
+
+			    .login-form {
+			        width: 100%;
+			    }
+
+			    .justify-icon,
+			    .justify-text {
+			        justify-content: center;
+			    }
+			}
+
+			/* Flex container for the 3 buttons */
+			.three-buttons {
+			    display: flex;
+			    justify-content: space-between;
+			    gap: 20px;
+			    /* Optional: space between the buttons */
+			    flex-wrap: wrap;
+			}
+
+			.btn-custom {
+			    width: 30%;
+			    /* Set the width for each button to fit 3 per row */
+			    padding: 20px;
+			    text-align: center;
+			    background-color: #f44025;
+			    color: #ffffff;
+			    font-size: 18px;
+			    border-radius: 16px;
+			    border: none;
+			    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.15);
+			    text-decoration: none;
+			}
+
+			.btn-custom:hover {
+			    background-color: #ff6f3b;
+			}
+
+			@media only screen and (max-width: 767px) {
+			    .three-buttons {
+			        flex-direction: column;
+			        gap: 10px;
+			    }
+
+			    .btn-custom {
+			        width: 100%;
+			        /* Full width on small screens */
+			    }
+			}
